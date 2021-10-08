@@ -1,0 +1,80 @@
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+footer {
+  margin: 0 auto;
+  border: 1px solid #bbbbbb;
+  padding: 0.5rem;
+  background-color: rgba(205, 205, 205);
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  grid-template-columns: 200px 1fr;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  float: left;
+  margin-right: 20px;
+}
+
+a:link {
+  color: rgba(54, 65, 86);
+}
+
+a:visited {
+  color: rgb(127, 152, 202);
+}
+
+a:hover {
+  color: rgba(1, 22, 56);
+}
+
+h1 {
+  color: rgba(54, 65, 86);
+  font-size: 2.2rem;
+  font-family: ;
+}
+
+h2 {
+  color: rgba(54, 65, 86);
+  font-size: 2.2rem;
+}
+
+p {
+  color: rgba(54, 65, 86);
+  font-size: 20px;
+}
+
+main {
+  margin: 1rem auto;
+  background-color: rgba(223, 248, 235);
+  padding: 1rem;
+}
+
+footer {
+  grid-template-columns: 1fr 300px;
+}
+
+/* Class Selectors */
+
+.page {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
