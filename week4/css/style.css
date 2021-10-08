@@ -24,6 +24,9 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+li {
   display: inline;
   float: left;
   margin-right: 20px;
@@ -44,7 +47,6 @@ a:hover {
 h1 {
   color: rgba(54, 65, 86);
   font-size: 2.2rem;
-  font-family: ;
 }
 
 h2 {
