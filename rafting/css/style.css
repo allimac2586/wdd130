@@ -2,7 +2,9 @@ body {
   font-size: 16px;
   font-family: "Montserrat", "sans-serif", "verdana";
   margin: 0;
-  padding: 0;
+  padding: 0.5rem;
+  line-height: normal;
+  border: 0;
 }
 
 header,
@@ -62,6 +64,7 @@ h2 {
 p {
   color: rgba(54, 65, 86);
   font-size: 20px;
+  line-height: normal;
 }
 
 main {
@@ -84,4 +87,8 @@ footer {
 .logo {
   width: 60px;
   height: auto;
+}
+
+.shadow {
+
 }
