@@ -24,7 +24,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif, verdana;
 }
 
 li {
@@ -54,13 +54,13 @@ h1 {
 h2 {
   color: rgba(54, 65, 86);
   font-size: 2rem;
-  font-family: "Rubik", sans-serif;
+  font-family: "Rubik", sans-serif, verdana;
 }
 
 p {
   color: rgba(54, 65, 86);
   font-size: 20px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif, verdana;
   line-height: 1.25;
 }
 
