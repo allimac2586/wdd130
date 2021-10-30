@@ -1,0 +1,13 @@
+p {
+  font-family: "Montserrat", sans-serif, verdana;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: rgba(244, 244, 249);
+}
