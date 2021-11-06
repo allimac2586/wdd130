@@ -1,13 +1,99 @@
+body {
+  font-size: 16px;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: rgba(244, 244, 249);
+}
+
 p {
   font-family: "Montserrat", sans-serif, verdana;
 }
 
-h1,
-h2,
-h3 {
-  font-family: "Open Sans", sans-serif;
+p + p {
+  margin-top: 8px;
 }
 
-body {
-  background-color: rgba(244, 244, 249);
+h1 {
+  border: 0px;
+  background-color: rgba(184, 219, 217);
+  padding: 10px;
+}
+
+h2 {
+  text-decoration: underline overline;
+}
+
+h3 {
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Open Sans", sans-serif, verdana;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+div {
+  border: 2px rgb(88, 111, 124);
+  padding: 8px;
+}
+
+/* Class Selectors*/
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 8px;
+  background-color: rgba(184, 219, 217);
+}
+
+.site_map {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.homepage {
+  grid-column: 1/2;
+  padding: 8px;
+  border-style: solid;
+  border-color: 10px rgba(88, 111, 124);
+  color: rgba(184, 219, 217);
+  background-color: rgba(47, 69, 80);
+}
+
+.buy_sell {
+  grid-column: 2/3;
+  padding: 8px;
+  border-style: solid;
+  border-color: 10px rgba(88, 111, 124);
+  margin-left: 2px;
+  margin-right: 2px;
+  color: rgba(184, 219, 217);
+  background-color: rgba(47, 69, 80);
+}
+
+.about {
+  grid-column: 3/4;
+  padding: 8px;
+  border-style: solid;
+  border-color: 10px rgba(88, 111, 124);
+  color: rgba(184, 219, 217);
+  background-color: rgba(47, 69, 80);
+}
+
+.column_p {
+  text-align: center;
 }

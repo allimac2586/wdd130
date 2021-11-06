@@ -43,19 +43,21 @@ button {
 }
 
 h1 {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   color: rgba(54, 65, 86);
   font-size: 2.5rem;
   font-family: "Rubik", sans-serif;
 }
 
 h2 {
-  display: flex;
-  justify-content: center;
   color: rgba(54, 65, 86);
   font-size: 2rem;
   font-family: "Rubik", sans-serif, verdana;
+  text-align: center;
+}
+
+section {
+  margin-top: 30px;
 }
 
 p {
@@ -128,13 +130,13 @@ footer {
 
 .s-one {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
 }
 
 .shadow {
   box-shadow: 5px 5px 5px 3px rgba(205, 205, 205);
   border-radius: 25px;
-  max-width: 100%;
+  width: 100%;
 }
 
 .shadow2 {
@@ -152,7 +154,9 @@ footer {
 
 .s-two {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  align-items: center;
+  justify-content: center;
 }
 
 .text2 {
@@ -160,7 +164,6 @@ footer {
 }
 
 .leftpic {
-  grid-column: 1;
   grid-row: 1;
 }
 
