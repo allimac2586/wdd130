@@ -69,7 +69,8 @@ div {
   grid-column: 1/2;
   padding: 8px;
   border-style: solid;
-  border-color: 10px rgba(88, 111, 124);
+  border-color: rgba(88, 111, 124);
+  border-width: 5px;
   color: rgba(184, 219, 217);
   background-color: rgba(47, 69, 80);
 }
@@ -78,7 +79,8 @@ div {
   grid-column: 2/3;
   padding: 8px;
   border-style: solid;
-  border-color: 10px rgba(88, 111, 124);
+  border-color: rgba(88, 111, 124);
+  border-width: 5px;
   margin-left: 2px;
   margin-right: 2px;
   color: rgba(184, 219, 217);
@@ -89,7 +91,8 @@ div {
   grid-column: 3/4;
   padding: 8px;
   border-style: solid;
-  border-color: 10px rgba(88, 111, 124);
+  border-color: rgba(88, 111, 124);
+  border-width: 5px;
   color: rgba(184, 219, 217);
   background-color: rgba(47, 69, 80);
 }
