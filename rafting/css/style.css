@@ -1,7 +1,7 @@
 body {
   font-size: 16px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0px;
   background-color: rgb(241, 238, 238);
   max-width: 1040px;
   box-sizing: border-box;
@@ -139,7 +139,8 @@ footer {
   width: 100%;
 }
 
-.shadow2 {
+.shadow2,
+.p-r-img {
   box-shadow: 5px 5px 5px 3px rgba(205, 205, 205);
   border-radius: 25px;
 }
@@ -174,4 +175,52 @@ footer {
 
 .three {
   text-align: center;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.whitewater,
+.scenic,
+.both {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.scenic-p {
+  grid-column: 2;
+  grid-gap: 10px;
+}
+
+.whitewater-p {
+  grid-column: 2;
+}
+
+.both-p {
+  grid-column: 2;
+  grid-gap: 10px;
+}
+
+.white-button {
+  position: absolute;
+  right: 300px;
+  bottom: 150px;
+}
+
+.scenic-button {
+  position: absolute;
+  right: 300px;
+  top: 975px;
+}
+
+.both-button {
+  position: absolute;
+  right: 300px;
+  top: 1375px;
+}
+
+.p-r-end {
+  text-align: center;
+  padding: 30px;
 }

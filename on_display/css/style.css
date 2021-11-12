@@ -1,6 +1,6 @@
 body {
   font-size: 16px;
-  max-width: 1040px;
+  max-width: 1060px;
   margin: 0 auto;
   padding: 0;
   background-color: rgba(244, 244, 249);
@@ -47,7 +47,6 @@ h4 {
 
 div {
   border: 2px rgb(88, 111, 124);
-  padding: 8px;
 }
 
 /* Class Selectors*/
@@ -99,4 +98,23 @@ div {
 
 .column_p {
   text-align: center;
+}
+
+.wireframes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0;
+  grid-gap: 2px;
+}
+
+.homeframe {
+  grid-column: 1;
+}
+
+.buysellframe {
+  grid-column: 2/3;
+}
+
+.aboutframe {
+  grid-column: 3/4;
 }
