@@ -4,11 +4,12 @@ body {
   margin: 0 auto;
   padding: 0;
   background-color: rgba(244, 244, 249);
+  box-sizing: border-box;
 }
 
-p {
-  color: rgba(184, 219, 217);
-  font-family: "Montserrat", sans-serif, verdana;
+header {
+  padding: 15px;
+  height: 310px;
 }
 
 p + p {
@@ -50,19 +51,54 @@ div {
   border: 2px rgb(88, 111, 124);
 }
 
+form {
+  display: flex;
+  justify-content: end;
+  position: relative;
+  bottom: 165px;
+  right: 90px;
+  font-family: "Open Sans", sans-serif, verdana;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-family: "Open Sans", sans-serif, verdana;
+}
+
+label {
+  width: 150px;
+  display: inline-block;
+  text-align: right;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+input {
+  padding: 3px;
+  border-radius: 1em;
+  border: 1px solid rgb(88, 111, 124);
+}
+
+footer {
+  color: rgba(88, 111, 124);
+  font-family: "Open Sans", sans-serif, verdana;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 300px;
+}
+
 /* Class Selectors*/
 
 .page {
   width: 1000px;
   margin: 0 auto;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  padding: 8px;
-  background-color: rgba(184, 219, 217);
 }
 
 .site_map {
@@ -132,15 +168,129 @@ div {
   border-top-right-radius: 25px;
   border-bottom-left-radius: 25px;
   box-shadow: 5px 5px 5px 5px rgba(205, 205, 205);
+  position: relative;
 }
 
 .logo {
-  width: 400px;
-  height: auto;
+  width: 470px;
+  position: relative;
+  top: 90px;
 }
 
 .about-us-logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.fp_paragraph {
+  display: grid;
+  grid-template-columns: 200px;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  color: rgba(184, 219, 217);
+  font-family: "Montserrat", sans-serif, verdana;
+}
+
+.p-1 {
+  grid-row: 2;
+}
+
+.p-2 {
+  grid-row: 3;
+}
+
+.navigation {
+  position: relative;
+  left: 140px;
+  bottom: 135px;
+  font-family: "Open Sans", sans-serif, verdana;
+}
+
+.navigation li {
+  flex: auto;
+  display: inline;
+}
+.navigation a {
+  color: rgba(47, 69, 80);
+  padding: 0.75rem;
+  text-decoration: none;
+}
+
+.logo_nav {
+  display: inline-block;
+}
+
+.signup {
+  display: flex;
+  justify-content: end;
+  position: relative;
+  bottom: 140px;
+  right: 90px;
+  font-weight: bold;
+  color: rgba(88, 111, 124);
+  font-family: "Montserrat", sans-serif, verdana;
+}
+
+.submit {
+  display: flex;
+  justify-content: end;
+  position: relative;
+  left: 164px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 3px;
+}
+
+.button {
+  border: 1px solid rgb(88, 111, 124);
+  border-radius: 3px;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  position: relative;
+  left: 285px;
+  font-family: "Open Sans", sans-serif, verdana;
+}
+
+.comic {
+  position: absolute;
+  top: -25px;
+  left: 50px;
+}
+
+.coin {
+  position: absolute;
+  top: 125px;
+  left: 300px;
+}
+
+.stamp {
+  position: absolute;
+  bottom: 325px;
+  right: 50px;
+  z-index: 1;
+}
+
+.vinyl {
+  position: absolute;
+  bottom: 154px;
+  left: 300px;
+}
+
+.book {
+  position: absolute;
+  bottom: -45px;
+  left: 50px;
+  padding-bottom: 25px;
+}
+
+.social {
+  display: flex;
+  justify-content: right;
+}
+
+.facebook,
+.instagram,
+.twitter {
+  padding-left: 10px;
 }
