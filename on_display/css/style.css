@@ -11,12 +11,6 @@ p + p {
   margin-top: 8px;
 }
 
-h1 {
-  border: 0px;
-  background-color: rgba(184, 219, 217);
-  padding: 10px;
-}
-
 h2 {
   text-decoration: underline overline;
 }
@@ -107,6 +101,18 @@ footer {
   background-color: rgba(47, 69, 80);
 }
 
+.title {
+  border: 0px;
+  background-color: rgba(184, 219, 217);
+  padding: 10px;
+}
+
+.home_welcome {
+  position: relative;
+  left: 275px;
+  margin: 0px;
+}
+
 .buy_sell {
   grid-column: 2/3;
   padding: 8px;
@@ -170,6 +176,10 @@ footer {
   border-bottom-left-radius: 25px;
   box-shadow: 5px 5px 5px 5px rgba(205, 205, 205);
   position: relative;
+}
+
+.about_main {
+  margin: 0px;
 }
 
 .index_logo {
@@ -343,11 +353,19 @@ footer {
 
 .sections {
   text-align: left;
+  border: 0px;
+  background-color: rgba(184, 219, 217);
+  padding: 10px;
 }
 
 .about_header {
-  padding: 26px 15px 15px 25px;
+  padding: 15px;
   text-align: right;
+}
+
+.about_title {
+  background: none;
+  margin: 0px;
 }
 
 .your_display,
