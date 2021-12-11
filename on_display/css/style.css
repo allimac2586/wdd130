@@ -134,6 +134,10 @@ footer {
   font-family: "Open Sans", sans-serif, verdana;
 }
 
+.bottom_p {
+  font-family: "Open Sans", sans-serif, verdana;
+}
+
 .p_plan {
   font-family: "Open Sans", sans-serif, verdana;
 }
@@ -247,9 +251,6 @@ footer {
   padding: 0.75rem;
   text-decoration: none;
   margin: 0px;
-  position: relative;
-  left: 709px;
-  top: 11px;
 }
 
 .about_nav li {
@@ -336,13 +337,17 @@ footer {
   height: 310px;
 }
 
-.buy_header,
-.about_header {
+.buy_header {
   padding: 15px;
 }
 
 .sections {
   text-align: left;
+}
+
+.about_header {
+  padding: 26px 15px 15px 25px;
+  text-align: right;
 }
 
 .your_display,
@@ -373,11 +378,12 @@ footer {
   padding-top: 20px;
 }
 
-.about_para,
 .about_para {
   grid-column: 2;
   font-family: "Montserrat", sans-serif, verdana;
   color: rgba(184, 219, 217);
+  margin: 0;
+  padding: 15px;
 }
 
 .about_column {
